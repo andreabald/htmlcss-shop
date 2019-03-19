@@ -1,0 +1,37 @@
+.box{
+  border: 1px solid black;
+  width: 250px;
+  height: 300px;
+  display: inline-block;
+}
+
+.ipad1{
+background-image: url("../img/pd1.jpg");
+background-size:contain;
+
+}
+
+.iphone1{
+  background-image: url("../img/pd2.jpg");
+  background-size:contain;
+}
+
+.beats1{
+  background-image: url("../img/pd3.jpg");
+  background-size:contain;
+}
+
+.ipad2{
+  background-image: url("../img/pd1.jpg");
+  background-size:contain;
+}
+
+.iphone2{
+  background-image: url("../img/pd2.jpg");
+  background-size:contain;
+}
+
+.beats2{
+  background-image: url("../img/pd3.jpg");
+  background-size:contain;
+}
