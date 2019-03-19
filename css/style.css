@@ -1,14 +1,14 @@
 .box{
-  border: 1px solid black;
   width: 250px;
   height: 300px;
   display: inline-block;
+  position: relative;
+
 }
 
 .ipad1{
 background-image: url("../img/pd1.jpg");
 background-size:contain;
-
 }
 
 .iphone1{
@@ -34,4 +34,36 @@ background-size:contain;
 .beats2{
   background-image: url("../img/pd3.jpg");
   background-size:contain;
+}
+
+.heart{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 90%;
+  right: 115px;
+  z-index: -2;
+  text-align: center;
+}
+
+.box:hover{
+ z-index: -1;
+}
+
+.discount{
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  bottom: 280px;
+  left: 210px;
+  text-align: center;
+  display: inline-block;
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
 }
