@@ -1,53 +1,45 @@
+.container{
+  width: 910px;
+  margin: 0 auto;
+}
+
+.prima_riga{
+  margin-bottom: 20px;
+}
+
 .box{
   width: 250px;
   height: 300px;
   display: inline-block;
   position: relative;
-
 }
 
-.ipad1{
+.ipad{
 background-image: url("../img/pd1.jpg");
 background-size:contain;
 }
 
-.iphone1{
+.iphone{
   background-image: url("../img/pd2.jpg");
   background-size:contain;
 }
 
-.beats1{
-  background-image: url("../img/pd3.jpg");
-  background-size:contain;
-}
-
-.ipad2{
-  background-image: url("../img/pd1.jpg");
-  background-size:contain;
-}
-
-.iphone2{
-  background-image: url("../img/pd2.jpg");
-  background-size:contain;
-}
-
-.beats2{
+.beats{
   background-image: url("../img/pd3.jpg");
   background-size:contain;
 }
 
 .heart{
   position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 90%;
-  right: 115px;
-  z-index: -2;
-  text-align: center;
+  font-size: 30px;
+  color: red;
+  bottom: 0;
+  left: calc((100% - 30px) /2);
+  display: none;
 }
 
-.box:hover{
- z-index: -1;
+.box:hover .heart{
+ display: block;
 }
 
 .discount{
